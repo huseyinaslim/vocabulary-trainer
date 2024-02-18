@@ -72,7 +72,7 @@ $unaskedWords = $db->getValue('words', 'COUNT(id)');
 								echo '<tr class="'.$statusesClasses[$word['status']].' text-white">
 										<td>'.$word['id'].'</td>
 										<td>'.$word['word'].'</td>
-										<td>'.($word['mean']??'-').'</td>
+										<td>'.($word['means']??'-').'</td>
 										<td>'.$statuses[$word['status']].'</td>
 									</tr>';
 							}
