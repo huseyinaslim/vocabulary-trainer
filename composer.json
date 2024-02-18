@@ -1,0 +1,12 @@
+{
+    "name": "codev/vocabulary",
+    "authors": [
+        {
+            "name": "Hüseyin ASLIM",
+            "email": "founder@codev.com.tr"
+        }
+    ],
+    "require": {
+        "thingengineer/mysqli-database-class": "dev-master"
+    }
+}
